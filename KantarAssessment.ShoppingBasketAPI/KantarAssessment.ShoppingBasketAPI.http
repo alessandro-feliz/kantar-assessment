@@ -1,0 +1,6 @@
+@KantarAssessment.ShoppingBasketAPI_HostAddress = http://localhost:5146
+
+GET {{KantarAssessment.ShoppingBasketAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

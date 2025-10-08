@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KantarAssessment.ShoppingBasketAPI", "KantarAssessment.ShoppingBasketAPI\KantarAssessment.ShoppingBasketAPI.csproj", "{C4F1AA2B-36A6-4B8F-AF0F-16BB6C2A2AF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KantarAssessment.ShoppingBasket", "KantarAssessment.ShoppingBasket\KantarAssessment.ShoppingBasket.csproj", "{5A40EFD6-D43E-4800-BED7-CBBD6C7818F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{E0C044F5-02F3-4A08-9978-A597C8A44FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KantarAssessment.ShoppingBasketAPI.Tests", "KantarAssessment.ShoppingBasketAPI.Tests\KantarAssessment.ShoppingBasketAPI.Tests.csproj", "{8B6CDE54-0181-4FF2-A81C-DA54DC80A562}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4F1AA2B-36A6-4B8F-AF0F-16BB6C2A2AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F1AA2B-36A6-4B8F-AF0F-16BB6C2A2AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F1AA2B-36A6-4B8F-AF0F-16BB6C2A2AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F1AA2B-36A6-4B8F-AF0F-16BB6C2A2AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A40EFD6-D43E-4800-BED7-CBBD6C7818F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A40EFD6-D43E-4800-BED7-CBBD6C7818F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A40EFD6-D43E-4800-BED7-CBBD6C7818F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A40EFD6-D43E-4800-BED7-CBBD6C7818F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6CDE54-0181-4FF2-A81C-DA54DC80A562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6CDE54-0181-4FF2-A81C-DA54DC80A562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6CDE54-0181-4FF2-A81C-DA54DC80A562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6CDE54-0181-4FF2-A81C-DA54DC80A562}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4F1AA2B-36A6-4B8F-AF0F-16BB6C2A2AF5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5A40EFD6-D43E-4800-BED7-CBBD6C7818F8} = {E0C044F5-02F3-4A08-9978-A597C8A44FC3}
+		{8B6CDE54-0181-4FF2-A81C-DA54DC80A562} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01E2FD59-1A0B-4D60-B3EB-3D7A7AA24640}
+	EndGlobalSection
+EndGlobal
