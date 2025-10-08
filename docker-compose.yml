@@ -10,7 +10,8 @@ services:
     environment:
       - ConnectionStrings__DefaultConnection=server=db;database=shopping_basket_db;user=root;password=kantar;
     depends_on:
-      - db
+      db:
+        condition: service_healthy
 
   shoppingbasketfrontend:
     build:
@@ -28,9 +29,14 @@ services:
       MYSQL_ROOT_PASSWORD: kantar
       MYSQL_DATABASE: shopping_basket_db
     ports:
-      - "3306:3306"
+      - "3306:3306"  # Optional
     volumes:
       - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
 volumes:
   mysql_data:
